@@ -2,6 +2,29 @@
 
 ## A free-range gathering of raw outputs from large language models (LLMs!)
 
+- [Prompts And Outputs](#prompts-and-outputs)
+  - [A free-range gathering of raw outputs from large language models (LLMs!)](#a-free-range-gathering-of-raw-outputs-from-large-language-models-llms)
+  - [Purpose Statement](#purpose-statement)
+  - [Homepage Text](#homepage-text)
+  - [Why (And When) I Started Saving LLM Outputs](#why-and-when-i-started-saving-llm-outputs)
+  - [Prompt Engineering, Use-Case Exploration](#prompt-engineering-use-case-exploration)
+    - [Simple File-Based Context Injection](#simple-file-based-context-injection)
+  - [Editing: Scope Of Project](#editing-scope-of-project)
+  - [Repository Growth Over Time](#repository-growth-over-time)
+    - [Core Parameters: Agents, Prompts, Outputs, Conversations](#core-parameters-agents-prompts-outputs-conversations)
+  - [Notes About The Formatting Used](#notes-about-the-formatting-used)
+  - [Additional Reasons I'm Capturing LLM Outputs](#additional-reasons-im-capturing-llm-outputs)
+    - [I'm working on an LLM KM System](#im-working-on-an-llm-km-system)
+  - [Secondary Analysis And Topic Cluster Modelling](#secondary-analysis-and-topic-cluster-modelling)
+  - [A Footprint Of LLMs' Evolving Capabilities](#a-footprint-of-llms-evolving-capabilities)
+  - [Technical Notes, Credits](#technical-notes-credits)
+  - [General License](#general-license)
+  - [Author](#author)
+  - [Licensing](#licensing)
+    - [Summary of the License](#summary-of-the-license)
+      - [License Terms](#license-terms)
+
+
 ![alt text](images/1.png)
 
 Vault root:
@@ -46,7 +69,7 @@ I am particularly interested in exploratory prompting strategies and in finding 
 
 The system I've developed involves curating snippets of data about yourself *(or your job, or your car, or your personal finance objectives)* and storing these in a repository that can be simply dragged-and-dropped into LLM web UIs (I recommend storing the snippets as `JSON` or `.md` for easy parsing although I've noticed that you can even store these as images and LLMs have no trouble parsing them). 
 
-## Warning: Almost No Editing Has Been Done!
+## Editing: Scope Of Project
 
 Given the scale of information that I've generated, gathered, and shared here, it's long been beyond the realm of possibility for me to manually review and edit all of this content. While I do that for *some* of the data that I capture into my markdown notebooks, this repository is derived at source and, hence, simply reflects what came out of the models.
 
@@ -54,6 +77,7 @@ The collection here is best understood as an (experimentary) LLM-derived "digita
 
 I love chatting about AI and LLMs and if this project has piqued your interest (or you're also interested in the open question of how humans and AI can best work togeher in generating useful information), do be in touch!
 
+---
 
 ## Repository Growth Over Time
 
